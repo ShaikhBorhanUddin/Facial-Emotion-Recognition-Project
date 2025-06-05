@@ -25,6 +25,16 @@ Facial-Emotion-Recognition/
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition-Project/blob/main/Image/image_distribution.png?raw=true)  
 
+## 🧪 Model Architecture & Experiments  
+
+## 📊 Results  
+
+## 📉 Confusion Matrix  
+
+## 📈 ROC Curves  
+
+## 🖼️ Visualizations  
+
 ## 🚧 Future Improvements  
 
 ## 🔗 References  
