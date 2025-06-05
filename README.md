@@ -48,20 +48,20 @@ Facial-Emotion-Recognition/
 
 ## 📊 Results  
 
-| Model                   | Accuracy | F1 Score | Loss   | Precision | Recall  |
-|-------------------------|----------|----------|--------|-----------|---------|
-| EfficientNetB5          | 0.8386   | 0.7556   | 0.6814 | 0.8473    | 0.8360  |
-| EfficientNetB4          | 0.8185   | 0.7384   | 0.6205 | 0.8246    | 0.8097  |
-| EfficientNetB3          | 0.7913   | 0.7209   | 0.6796 | 0.8034    | 0.7900  |
-| EfficientNetB2          | 0.8324   | 0.7100   | 0.6005 | 0.8434    | 0.8256  |
-| EfficientNetB3 Modified | 0.8342   | 0.8535   | 0.7443 | 0.8387    | 0.8284  |
-| EfficientNetB2 Modified | 0.8083   | 0.6756   | 0.6470 | 0.8129    | 0.7978  |
-| ConvNeXtBase            | 0.8342   | 0.8535   | 0.7443 | 0.8387    | 0.8284  |
-| VGG16                   | 0.7444   | 0.3558   | 0.6762 | 0.8164    | 0.6580  |
-| VGG19                   | 0.1768   | 0.2300   | 1.9365 | 0.7143    | 0.0013  |
-| ResNet152V2             | 0.6464   | 0.4481   | 1.7839 | 0.6563    | 0.6456  |
-| ResNet101V2             | 0.7362   | 0.4074   | 1.2637 | 0.7373    | 0.7301  |
-| ResNet50V2              | 0.6985   | 0.3915   | 1.5528 | 0.7040    | 0.6969  |
+| Model                   | Accuracy | F1 Score | Loss   | Precision | Recall  | Training       |
+|-------------------------|----------|----------|--------|-----------|---------|----------------|
+| EfficientNetB5          | 0.8386   | 0.7556   | 0.6814 | 0.8473    | 0.8360  | Successful     |
+| EfficientNetB4          | 0.8185   | 0.7384   | 0.6205 | 0.8246    | 0.8097  | Successful     |
+| EfficientNetB3          | 0.7913   | 0.7209   | 0.6796 | 0.8034    | 0.7900  | Successful     |
+| EfficientNetB2          | 0.8324   | 0.7100   | 0.6005 | 0.8434    | 0.8256  | Successful     |
+| EfficientNetB3 Modified | 0.8342   | 0.8535   | 0.7443 | 0.8387    | 0.8284  | Successful     |
+| EfficientNetB2 Modified | 0.8083   | 0.6756   | 0.6470 | 0.8129    | 0.7978  | Successful     |
+| ConvNeXtBase            | 0.8342   | 0.8535   | 0.7443 | 0.8387    | 0.8284  | Successful     |
+| VGG16                   | 0.7444   | 0.3558   | 0.6762 | 0.8164    | 0.6580  | Successful     |
+| VGG19                   | 0.1768   | 0.2300   | 1.9365 | 0.7143    | 0.0013  | Overfitted     |
+| ResNet152V2             | 0.6464   | 0.4481   | 1.7839 | 0.6563    | 0.6456  | Overfitted     |
+| ResNet101V2             | 0.7362   | 0.4074   | 1.2637 | 0.7373    | 0.7301  | Successful     |
+| ResNet50V2              | 0.6985   | 0.3915   | 1.5528 | 0.7040    | 0.6969  | Successful     |
 
 ## 📉 Confusion Matrix  
 
