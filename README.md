@@ -9,6 +9,8 @@
   <img src="https://img.shields.io/badge/Result%20Visualization-GradCAM%20|%20GradCAM++-red?style=flat&logo=visualstudiocode&logoColor=white" alt="Result Visualization: GradCAM, GradCAM++">
   <img src="https://img.shields.io/badge/Emotion%20Classes-7-critical" alt="Emotion Classes">
   <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/Facial-Emotion-Recognition?style=social" alt="Forks">
+  <img src="https://img.shields.io/badge/Version%20Control-Git-orange?logo=git&logoColor=white" alt="Version Control: Git">
+  <img src="https://img.shields.io/badge/Host-GitHub-black?logo=github&logoColor=white" alt="Host: GitHub">
   <img src="https://img.shields.io/badge/Project-Completed-brightgreen" alt="Project Status">
 
 </p>
