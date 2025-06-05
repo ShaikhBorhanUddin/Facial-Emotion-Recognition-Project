@@ -21,6 +21,8 @@ Facial-Emotion-Recognition/
 └── README.md
 ```
 
+## 🔄 Workflow  
+
 ## 🗃️ Dataset  
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition-Project/blob/main/Image/image_distribution.png?raw=true)  
@@ -35,7 +37,11 @@ Facial-Emotion-Recognition/
 
 ## 🖼️ Visualizations  
 
+## 🌍 Practical Applications  
+
 ## 🚧 Future Improvements  
+
+## ⚠️ Limitations  
 
 ## 🔗 References  
 
