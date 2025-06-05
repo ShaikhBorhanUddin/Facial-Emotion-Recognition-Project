@@ -1,4 +1,17 @@
 #  🎭 Facial Emotion Recognition  
+<p align="left">
+  <img src="https://img.shields.io/badge/Made%20With-Colab-blue?logo=googlecolab&logoColor=white&label=Made%20With" alt="Made with Colab">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
+  <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/Facial-Emotion-Recognition" alt="Repo Size">
+  <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/Facial-Emotion-Recognition" alt="Last Commit">
+  <img src="https://img.shields.io/github/issues/ShaikhBorhanUddin/Facial-Emotion-Recognition" alt="Issues">
+  <img src="https://img.shields.io/badge/Framework-TensorFlow-orange?logo=tensorflow" alt="Framework: TensorFlow">
+  <img src="https://img.shields.io/badge/Result%20Visualization-GradCAM%20|%20GradCAM++-red?style=flat&logo=visualstudiocode&logoColor=white" alt="Result Visualization: GradCAM, GradCAM++">
+  <img src="https://img.shields.io/badge/Emotion%20Classes-7-critical" alt="Emotion Classes">
+  <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/Facial-Emotion-Recognition?style=social" alt="Forks">
+  <img src="https://img.shields.io/badge/Project-Completed-brightgreen" alt="Project Status">
+
+</p>
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition-Project/blob/main/Image/fer_title_2.png?raw=true)
 
