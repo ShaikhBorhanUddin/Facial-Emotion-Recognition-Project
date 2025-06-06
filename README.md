@@ -69,6 +69,8 @@ Facial-Emotion-Recognition/
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/roc_efficientnet.png?raw=true)  
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/roc_vgg.png?raw=true)
+
 ## 🖼️ Visualizations  
 
 ## 🌍 Practical Applications  
