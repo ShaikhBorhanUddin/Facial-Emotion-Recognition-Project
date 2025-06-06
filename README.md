@@ -91,7 +91,7 @@ The images displayed above show confusion matrices for EfficientNet B2, B3, B4, 
 
 The second images contain confusion matrices for VGG16 (left) and VGG19 (right). The differences in performance are stark—VGG19 outperforms VGG16, particularly in classifying Fear, where true positives jump from 72 to 105. VGG16 struggles notably with Sadness and Surprise, misclassifying Sadness as Neutral (25 times) and Surprise as Fear (8 times). These high misclassification rates point to its limited depth compared to VGG19. VGG19 demonstrates improved balance, especially for difficult classes like Sadness and Disgust, though confusion with overlapping expressions such as Fear–Surprise and Neutral–Sadness still exists. Overall, while both VGG models lag behind EfficientNet B4/B5 in overall robustness, VGG19 shows significant gains over VGG16, benefiting from its deeper convolutional layers and enhanced feature extraction.  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/cm_resnet.png?raw=true)  
+![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/cm_resnet_mod.png?raw=true)  
 
 ## 🖼️ Visualizations  
 
