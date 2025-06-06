@@ -48,6 +48,8 @@ Facial-Emotion-Recognition/
 
 ## 📊 Results  
 
+Performance matrix for all models are included in this section.  
+
 | Model                   | Accuracy | F1 Score | Loss   | Precision | Recall  | Training       |
 |-------------------------|----------|----------|--------|-----------|---------|----------------|
 | EfficientNetB5          | 0.8386   | 0.7556   | 0.6814 | 0.8473    | 0.8360  | Successful     |
