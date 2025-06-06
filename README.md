@@ -58,7 +58,7 @@ Facial-Emotion-Recognition/
 | EfficientNetB2 Modified | 0.8083   | 0.6756   | 0.6470 | 0.8129    | 0.7978  | Successful     |
 | ConvNeXtBase            | 0.8342   | 0.8535   | 0.7443 | 0.8387    | 0.8284  | Successful     |
 | VGG16                   | 0.7444   | 0.3558   | 0.6762 | 0.8164    | 0.6580  | Successful     |
-| VGG19                   | 0.1768   | 0.2300   | 1.9365 | 0.7143    | 0.0013  | Overfitted     |
+| VGG19                   | 0.8112   | 0.6560   | 0.5309 | 0.8558    | 0.7876  | Successful     |
 | ResNet152V2             | 0.6464   | 0.4481   | 1.7839 | 0.6563    | 0.6456  | Overfitted     |
 | ResNet101V2             | 0.7362   | 0.4074   | 1.2637 | 0.7373    | 0.7301  | Successful     |
 | ResNet50V2              | 0.6985   | 0.3915   | 1.5528 | 0.7040    | 0.6969  | Successful     |
