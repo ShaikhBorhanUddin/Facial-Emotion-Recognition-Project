@@ -63,6 +63,8 @@ Facial-Emotion-Recognition/
 | ResNet101V2             | 0.7362   | 0.4074   | 1.2637 | 0.7373    | 0.7301  | Successful     |
 | ResNet50V2              | 0.6985   | 0.3915   | 1.5528 | 0.7040    | 0.6969  | Successful     |
 
+The ConvNeXtBase and EfficientNetB3 Modified models emerged as top performers, both achieving the highest F1 score (0.8535) and excellent accuracy (~83.4%), indicating strong consistency in classification. EfficientNetB5 also performed well with an accuracy of 83.86%, though its F1 score (0.7556) was noticeably lower, suggesting it may not generalize as effectively across all emotion classes. Among traditional architectures, VGG16 performed the worst in F1 score (0.3558), pointing to major misclassifications despite decent precision. VGG19 improved significantly over VGG16 after correction but still lagged behind the top models. Notably, ResNet152V2 was the only model flagged as overfitted, with both accuracy and F1 score dropping below acceptable levels. The results suggest that modern architectures like ConvNeXt and modified EfficientNets handle complex, multi-class emotional data more robustly than deeper or older CNN backbones.  
+
 ## 📈 ROC Curves  
 
 ROC curve analysis of all tested models are included in this section. ResNet152V2 was excluded due to overfitting in training phase. Also, customized version of EfficientNetB2 and B3 are not included in the analysis.
