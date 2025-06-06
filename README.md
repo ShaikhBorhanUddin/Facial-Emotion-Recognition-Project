@@ -83,7 +83,10 @@ In the last three image, ConvNeXtBase, ResNet50V2, and ResNet101V2 are analyzed.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/cm_efficient.png?raw=true)  
 
+The images displayed above show confusion matrices for EfficientNet B2, B3, B4, and B5 models (left to right). Across all models, Fear, Happiness, and Neutral consistently show strong classification performance, with high true positive counts—Fear especially stands out with values ranging from 99 to 104. However, Surprise and Sadness frequently get misclassified, particularly into Fear and Neutral, which suggests that the visual features of these emotions may overlap and pose challenges even for deeper networks. A trend of performance improvement is visible as we move from B2 to B5: the number of true positives increases slightly (e.g., Anger improves from 71 to 79, Disgust from 75 to 80), and off-diagonal confusion for classes like Sadness and Surprise becomes more controlled. This indicates that deeper EfficientNet variants (B4 and B5) are better at capturing fine-grained emotional differences.  
+
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/cm_vgg.png?raw=true)  
+
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/cm_resnet.png?raw=true)  
 
