@@ -67,7 +67,7 @@ Facial-Emotion-Recognition/
 
 ## 📈 ROC Curves  
 
-Analysis of all tested models are included in this section. ResNet152V2 was excluded due to overfitting in training phase.
+Analysis of all tested models are included in this section. ResNet152V2 was excluded due to overfitting in training phase. Also, customized version of EfficientNetB2 and B3 are not included in the analysis.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/roc_efficientnet.png?raw=true)  
 
