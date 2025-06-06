@@ -85,6 +85,8 @@ In the last three image, ConvNeXtBase, ResNet50V2, and ResNet101V2 are analyzed.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/cm_vgg.png?raw=true)  
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/cm_resnet.png?raw=true)  
+
 ## 🖼️ Visualizations  
 
 ## 🌍 Practical Applications  
