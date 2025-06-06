@@ -63,8 +63,6 @@ Facial-Emotion-Recognition/
 | ResNet101V2             | 0.7362   | 0.4074   | 1.2637 | 0.7373    | 0.7301  | Successful     |
 | ResNet50V2              | 0.6985   | 0.3915   | 1.5528 | 0.7040    | 0.6969  | Successful     |
 
-## 📉 Confusion Matrix  
-
 ## 📈 ROC Curves  
 
 ROC curve analysis of all tested models are included in this section. ResNet152V2 was excluded due to overfitting in training phase. Also, customized version of EfficientNetB2 and B3 are not included in the analysis.
@@ -80,6 +78,8 @@ For VGG class, the ROC curves for the VGG16 (left image above) and VGG19 (right 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/roc_resnet.png?raw=true)  
 
 In the last three image, ConvNeXtBase, ResNet50V2, and ResNet101V2 are analyzed. These models deliver robust classification results, comparable to EfficientNetB2–B5, with AUCs consistently between 0.95 and 1.00. ConvNeXtBase (left image) stands out with a perfect AUC of 1.00 for both "Happiness" and "Neutral," while maintaining strong performance across the other classes. The ROC curves of ResNet101V2 (right image) and ResNet50V2 (middle image) are closely packed with high slopes, indicating minimal class confusion and strong predictive power. Unlike VGG models, these architectures exhibit better generalization, as supported by both their AUC scores and the smoothness and steepness of the ROC curves.
+
+## 📉 Confusion Matrix  
 
 
 ## 🖼️ Visualizations  
