@@ -150,6 +150,12 @@ Version control was managed using Git, with all development hosted on GitHub, en
 
 ## ⚠️ Limitations  
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/body_language.png?raw=true)
+**Figure**: Example of hand gesture, surrounding environment or body language not considered in the dataset
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/sideway_view.png?raw=true)
+**Figure**: Sideway view images also not included in the model training
+
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/blended_emotions_mod.png?raw=true)
 **Figure**: Example of blended emotions  
 
