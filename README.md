@@ -38,7 +38,7 @@ Facial-Emotion-Recognition/
 
 ## 🗃️ Dataset  
 
-[Dataset](https://drive.google.com/drive/folders/14GxPnsSpW-rJrU4eOo7fZWZQV-zcxCi9?usp=sharing)  
+The dataset used in this project is the [FER_25 dataset](https://drive.google.com/drive/folders/14GxPnsSpW-rJrU4eOo7fZWZQV-zcxCi9?usp=sharing), which consists of **7,200 high-resolution (224×224) RGB images** distributed evenly across seven emotion categories: Anger, Disgust, Fear, Happiness, Neutral, Sadness, and Surprise. As illustrated in the image distribution chart, each category contains approximately 925–945 training images and 96–125 test images, maintaining a balanced class representation.  
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition-Project/blob/main/Image/image_distribution.png?raw=true)  
 
