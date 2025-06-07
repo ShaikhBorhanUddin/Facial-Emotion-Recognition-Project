@@ -46,6 +46,23 @@ Facial-Emotion-Recognition/
 
 ## 🔬 Model Architecture & Experiments  
 
+All models followed a structured and consistent architecture pipeline involving a pretrained CNN backbone, global average pooling, dense layers with ReLU activation, and a softmax output for multi-class emotion classification. A Dropout(0.5) layer was uniformly applied before the classification head to mitigate overfitting.
+
+- EfficientNetB2 to B5: These models varied in depth and parameter size (B2: 8.4M to B5: 29.5M) and mostly used a single dense layer of 512 units.
+
+- Modified EfficientNetB2 included two dense layers (1024 → 512), increasing capacity with 10.7M parameters.
+
+- Modified EfficientNetB3 further extended this to three dense layers (1024 → 512 → 256), totaling 13M parameters.
+
+- VGG16 and VGG19 used their classic convolutional stacks followed by a dense layer of 512 units, with respective parameters of 14.9M and 20.2M.
+
+- ResNet50V2, 101V2, and 152V2 increased in complexity and depth, topping out at 59.3M parameters for ResNet152V2.
+
+- ConvNeXtBase, the most computationally intensive model with 88M parameters, leveraged modern attention-inspired architecture, ending in a dense layer of 512 units.
+
+Despite architectural differences, the consistent training logic and layered designs allowed fair comparison across models. The Modified EfficientNet and ConvNeXtBase models benefitted from deeper, flexible classification heads and TPU acceleration, leading to superior generalization.
+
+
 ## 📊 Results  
 
 Performance matrix for all models are included in this section.  
