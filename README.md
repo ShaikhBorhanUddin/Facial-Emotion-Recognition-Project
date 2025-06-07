@@ -36,8 +36,6 @@ Facial-Emotion-Recognition/
 └── README.md
 ```
 
-## 🔄 Workflow  
-
 ## 🗃️ Dataset  
 
 [Dataset](https://drive.google.com/drive/folders/14GxPnsSpW-rJrU4eOo7fZWZQV-zcxCi9?usp=sharing)  
@@ -141,6 +139,12 @@ In addition to model development, the project employed NumPy and pandas for data
 
 `Git` `GitHub`  
 Version control was managed using Git, with all development hosted on GitHub, ensuring reproducibility and collaborative workflow. The Jupyter Notebook format was used throughout for experiment tracking, result logging, and visual analysis. Overall, the technology stack was designed to balance ease of development, training speed, and interpretability of results.  
+
+## 🔄 How to Run Locally
+
+To run the project locally, Python 3.8 or higher should be installed, along with essential libraries such as TensorFlow, NumPy, Pandas, Matplotlib, and scikit-learn. The repository should be cloned from GitHub, and all dependencies must be installed using the command pip install -r requirements.txt. The dataset is to be placed in the designated directory as specified in the code. Preprocessing and training scripts can then be executed in the recommended order. Models can be trained from scratch or loaded from available pretrained weights. Provided Jupyter notebooks or Python scripts should be used to evaluate performance, visualize outputs such as confusion matrices, and test the model on custom inputs using a local CPU or GPU setup.  
+
+**Note** : For GPU acceleration, ensure your system supports CUDA and has necessary NVIDIA drivers installed. Alternatively, use Google Colab or Kaggle Notebooks for quick setup.
 
 ## ⚠️ Limitations  
 
