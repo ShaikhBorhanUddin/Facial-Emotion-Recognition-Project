@@ -160,7 +160,7 @@ However, the models experimented in this study focuses solely on front-facing fa
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/sideway_view.png?raw=true)
 **Figure**: Sideway view images also not included in the model training  
 
-The dataset does not fully align with Plutchik's wheel of emotions, making it impossible to train models for subtle or blended emotions such as sarcasm, enthusiasm, or embarrassment.
+The dataset does not fully align with [Plutchik's wheel of emotions](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/wheel%20of%20emoion.png), making it impossible to train models for subtle or blended emotions such as sarcasm, enthusiasm, or embarrassment.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/blended_emotions_mod.png?raw=true)
 **Figure**: Example of blended or ambiguous emotions  
