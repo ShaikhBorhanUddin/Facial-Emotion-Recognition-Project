@@ -133,10 +133,13 @@ Facial Emotion Recognition (FER) technology is essential for advancing human-cen
 
 ## 🔧 Tools & Technology  
 
+`Python` `tensorFlow` `Keras` `EfficientNet` `VGG` `ResNet` `ConvNeXt` `A100` `Trillium`  
 This Facial Emotion Recognition project was implemented primarily using Python, with TensorFlow and Keras serving as the core deep learning frameworks. These libraries provided the foundation for building, training, fine-tuning, and evaluating various state-of-the-art convolutional neural network architectures including EfficientNet, VGG, ResNet, and ConvNeXt. For training efficiency and scalability, most models were trained using Google Colab Pro with NVIDIA A100 GPUs, while the modified EfficientNetB2 and B3 models were trained on v5e Trillium TPUs, ensuring faster computations and reduced training time.
 
+`Matplotlib` `seaborn` `GradCAM`  
 In addition to model development, the project employed NumPy and pandas for data manipulation and preprocessing. Visualization and interpretability were emphasized through the use of Matplotlib, Seaborn, and Grad-CAM techniques (including Grad-CAM++) to highlight the key regions influencing model predictions. These techniques aided in gaining insights into model decision-making, particularly for misclassified emotion classes.
 
+`Git` `GitHub`  
 Version control was managed using Git, with all development hosted on GitHub, ensuring reproducibility and collaborative workflow. The Jupyter Notebook format was used throughout for experiment tracking, result logging, and visual analysis. Overall, the technology stack was designed to balance ease of development, training speed, and interpretability of results.
 ## 🚧 Future Improvements  
 
