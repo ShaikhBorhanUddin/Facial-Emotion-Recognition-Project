@@ -150,7 +150,9 @@ Version control was managed using Git, with all development hosted on GitHub, en
 
 ## ⚠️ Limitations  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/blended_emotions_mod.png?raw=true)  
+![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/blended_emotions_mod.png?raw=true)
+**Figure**: Example of blended emotions  
+
 
 ## 🔗 References  
 
