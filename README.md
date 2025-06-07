@@ -150,11 +150,17 @@ Version control was managed using Git, with all development hosted on GitHub, en
 
 ## ⚠️ Limitations  
 
+Emotion is influenced by more than just facial expressions. Sound, movement, body language, the environment, objects, and psychological factors all significantly contribute to how we interpret emotions.   
+
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/body_language.png?raw=true)
-**Figure**: Example of hand gesture, surrounding environment or body language not considered in the dataset
+**Figure**: Example of hand gesture, surrounding environment or body language not considered in the dataset  
+
+However, the models experimented in this study focuses solely on front-facing facial features within a controlled setting, which may limit the overall understanding of emotional expressions.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/sideway_view.png?raw=true)
-**Figure**: Sideway view images also not included in the model training
+**Figure**: Sideway view images also not included in the model training  
+
+The dataset does not fully align with Plutchik's wheel of emotions, making it impossible to train models for subtle or blended emotions such as sarcasm, enthusiasm, or embarrassment.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/blended_emotions_mod.png?raw=true)
 **Figure**: Example of blended or ambiguous emotions  
