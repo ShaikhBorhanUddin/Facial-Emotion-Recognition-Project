@@ -165,6 +165,8 @@ The dataset does not fully align with [Plutchik's wheel of emotions](https://git
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/blended_emotions_mod.png?raw=true)
 **Figure**: Example of blended or ambiguous emotions  
 
+Due to hardware limitations, experimentation with larger datasets or more complex models (like EfficientNetB7, ViT-base, or DenseNet201) was not feasible.  
+
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/resource_usage.png?raw=true)  
 
 ## 🔗 References  
