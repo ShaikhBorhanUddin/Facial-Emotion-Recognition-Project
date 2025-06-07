@@ -157,7 +157,7 @@ Version control was managed using Git, with all development hosted on GitHub, en
 **Figure**: Sideway view images also not included in the model training
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/blended_emotions_mod.png?raw=true)
-**Figure**: Example of blended emotions  
+**Figure**: Example of blended or ambiguous emotions  
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/resource_usage.png?raw=true)  
 
