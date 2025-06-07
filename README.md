@@ -142,12 +142,6 @@ In addition to model development, the project employed NumPy and pandas for data
 `Git` `GitHub`  
 Version control was managed using Git, with all development hosted on GitHub, ensuring reproducibility and collaborative workflow. The Jupyter Notebook format was used throughout for experiment tracking, result logging, and visual analysis. Overall, the technology stack was designed to balance ease of development, training speed, and interpretability of results.  
 
-## 🚧 Future Improvements  
-
-[FERV39k](https://github.com/wangyanckxx/FERV39k)  
-
-[AffectNet](https://www.kaggle.com/datasets/mstjebashazida/affectnet)  
-
 ## ⚠️ Limitations  
 
 Emotion is influenced by more than just facial expressions. Sound, movement, body language, the environment, objects, and psychological factors all significantly contribute to how we interpret emotions.   
@@ -168,6 +162,12 @@ The dataset does not fully align with [Plutchik's wheel of emotions](https://git
 Due to hardware limitations, experimentation with larger datasets or more complex models (like EfficientNetB7, ViT-base, or DenseNet201) was not feasible.  
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/resource_usage.png?raw=true)  
+
+## 🚧 Future Developments  
+  
+Looking ahead, the project aims to expand its scope by incorporating larger and more diverse datasets (like  [FERV39k](https://github.com/wangyanckxx/FERV39k) or [AffectNet](https://www.kaggle.com/datasets/mstjebashazida/affectnet)) that cover a broader range of emotion categories, aligning more closely with Plutchik’s Wheel of Emotions. This will enable finer-grained emotion recognition and improve generalization across demographics and contexts. In addition to dataset expansion, further architectural experimentation is planned—particularly exploring deeper and more varied dense layer configurations to better capture complex emotional cues.
+
+The Swin Transformer (Swin Base) model will also be tested as a promising alternative to convolutional architectures, potentially offering improved performance in visual understanding tasks due to its hierarchical attention mechanism. To support these enhancements and ensure faster, more scalable experimentation, the project will transition from Google Colab Pro to a dedicated virtual machine (VM) instance environment, providing greater computational flexibility and resource allocation for future training and evaluation.
 
 ## 🔗 References  
 
