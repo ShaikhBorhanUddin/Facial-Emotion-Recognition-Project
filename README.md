@@ -44,7 +44,7 @@ Facial-Emotion-Recognition/
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/fer_sample_mod.png?raw=true)  
 
-## 🔬 Model Architecture & Experiments  
+## 🔬 Model Architecture
 
 All models followed a structured and consistent architecture pipeline involving a pretrained CNN backbone, global average pooling, dense layers with ReLU activation, and a softmax output for multi-class emotion classification. A Dropout(0.5) layer was uniformly applied before the classification head to mitigate overfitting.
 
@@ -60,8 +60,15 @@ All models followed a structured and consistent architecture pipeline involving 
 
 - ConvNeXtBase, the most computationally intensive model with 88M parameters, leveraged modern attention-inspired architecture, ending in a dense layer of 512 units.
 
-Despite architectural differences, the consistent training logic and layered designs allowed fair comparison across models. The Modified EfficientNet and ConvNeXtBase models benefitted from deeper, flexible classification heads and TPU acceleration, leading to superior generalization.
+Despite architectural differences, the consistent training logic and layered designs allowed fair comparison across models. The Modified EfficientNet and ConvNeXtBase models benefitted from deeper, flexible classification heads and TPU acceleration, leading to superior generalization.  
 
+## 🧪 Experiments  
+
+A series of deep learning models were trained and evaluated to recognize facial emotions across seven categories. All models shared a unified training protocol with 30 epochs, a dropout rate of 0.5, ReLU activation in dense layers, softmax output activation, Adam optimizer, and categorical crossentropy loss. The base learning rate was set to 0.001, with a fine-tuning learning rate of 1e-4 (except VGG16 and VGG19, which used 1e-5). Training was conducted on an NVIDIA A100 GPU, except for the Modified EfficientNetB2 and Modified EfficientNetB3, which were trained using v5e Trillium TPUs for enhanced scalability.
+
+Batch sizes were tailored to each model's capacity. For example, EfficientNetB5 and VGG19 used a smaller batch size of 128 due to their larger parameter count (29.5M and 20.2M, respectively), while ResNet50V2 and ResNet101V2 utilized batch sizes of 512. These batch size variations were chosen to balance memory usage and convergence efficiency.
+
+All models were evaluated on accuracy, F1 score, precision, recall, and categorical loss. Results clearly favored ConvNeXtBase and Modified EfficientNetB3, which achieved top-tier performance, while models such as ResNet152V2 showed signs of overfitting despite their complexity. This consistent and controlled experimental setup enables reliable performance comparison across architectures and training environments.
 
 ## 📊 Results  
 
