@@ -170,7 +170,7 @@ Emotion is influenced by more than just facial expressions. Sound, movement, bod
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/body_language.png?raw=true)
 **Figure**: Example of hand gesture, surrounding environment or body language not considered in the dataset  
 
-For example, If we focus only on the facial expression in the image above (woman with salad bowl) ignoring the contextual cues like the salad bowl and fork, the emotion displayed can easily be misinterpreted as pain or frustration rather than disgust for salad. However, the models experimented in this study focuses solely on front-facing facial features within a controlled setting, which may limit the overall understanding of emotional expressions.
+For example, If we focus only on the facial expression in the image above (woman with salad bowl) ignoring the contextual cues like the salad bowl and fork, the emotion displayed can easily be misinterpreted as pain or frustration rather than disgust for salad. However, the deep learning models experimented in this study focuses solely on front-facing facial features within a controlled setting, which may limit the overall understanding of emotional expressions.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/sideway_view.png?raw=true)
 **Figure**: Sideway view images also not included in the model training  
