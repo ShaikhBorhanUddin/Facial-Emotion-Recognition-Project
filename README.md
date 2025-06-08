@@ -162,12 +162,12 @@ For example, If we focus only on the facial expression in the image above (woman
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/sideway_view.png?raw=true)
 **Figure**: Sideway view images also not included in the model training  
 
-The dataset does not fully align with [Plutchik's wheel of emotions](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/wheel%20of%20emoion.png) , making it impossible to train models for subtle or blended emotions such as sarcasm, enthusiasm, or embarrassment.
+The dataset does not fully align with [Plutchik's wheel of emotions](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/wheel%20of%20emoion.png), which is a widely accepted model encompassing eight primary emotions—joy, trust, fear, surprise, sadness, disgust, anger, and anticipation—along with their intensities and complex combinations (e.g., love as a blend of joy and trust, or submission as a mix of trust and fear). While the FER_25 dataset covers basic, visually distinguishable categories like anger, sadness, happiness, and fear, it lacks representation for more nuanced or compound emotional states such as **sarcasm**, **enthusiasm**, **embarrassment**, or **contempt**.  
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/blended_emotions_mod.png?raw=true)
 **Figure**: Example of blended or ambiguous emotions  
 
-Due to hardware limitations, experimentation with larger datasets or more complex models (like EfficientNetB7, ViT-base, or DenseNet201) was not feasible.  
+Due to hardware limitations in the Google Colab Pro environment—specifically, the 40 GB GPU RAM ceiling—experimentation with larger datasets or more complex deep learning models such as **EfficientNetB7**, **ViT-base**, or **DenseNet201** was not feasible. As shown in the resources usage image, even models like **ConvNeXtbase**, **EfficientNetB4**, and R**esNet101V2** utilized nearly all available GPU memory (around 37–38.5 GB out of 40 GB), leaving no room for more parameter-heavy architectures or larger batch sizes. The high GPU memory consumption during training caused frequent crashes or throttling when trying to scale beyond this limit. This constraint restricted the exploration of potentially more accurate or generalizable models that require additional compute resources for training and fine-tuning.  
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/resource_usage.png?raw=true)  
 
