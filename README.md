@@ -184,10 +184,19 @@ Looking ahead, the project aims to expand its scope by incorporating larger and 
 
 The Swin Transformer (Swin Base) model will also be tested as a promising alternative to convolutional architectures, potentially offering improved performance in visual understanding tasks due to its hierarchical attention mechanism. To support these enhancements and ensure faster, more scalable experimentation, the project will transition from Google Colab Pro to a dedicated virtual machine (VM) instance environment, providing greater computational flexibility and resource allocation for future training and evaluation.
 
-## 🔗 References  
+## 📄 License  
 
-## 📄 License
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project for personal or commercial purposes, provided that proper credit is given to the original author. See the Licence file for full details.
+                     
+## 📬 Contact
 
-## 🙋 Contact  
+If you have any questions or would like to connect, feel free to reach out!
+
+**Shaikh Borhan Uddin**  
+📧 Email: [`shaikhborhanuddin@gmail.com`](mailto:shaikhborhanuddin@gmail.com)  
+🔗 [`LinkedIn`](https://www.linkedin.com/in/shaikh-borhan-uddin-905566253/)  
+🌐 [`Portfolio`](https://github.com/ShaikhBorhanUddin)
+
+Feel free to fork the repository, improve the queries, or add visualizations!
 
 
