@@ -19,6 +19,10 @@
 
 ## 🧾 Overview  
 
+The project aims to improve the accuracy and robustness of facial emotion recognition systems by utilizing deep learning-based transfer learning methods. It examines how different pre-trained convolutional neural network (CNN) architectures perform in recognizing basic human emotions from facial expressions. The study emphasizes understanding how factors such as model depth, the number of parameters, and architectural complexity affect prediction performance.
+
+Additionally, the research investigates the influence of data quality and resolution on emotion classification, particularly in real-world applications where subtle facial cues are crucial. The project contributes to the development of more expressive and adaptable models that can be applied in areas such as mental health monitoring, human-computer interaction, and behavioral analytics.  
+
 ## 🗂️ Project Structure  
 
 ```bash
