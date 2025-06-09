@@ -81,7 +81,7 @@ All models were evaluated on accuracy, F1 score, precision, recall, and categori
 
 ## 📊 Results  
 
-Performance matrix summary for all models are included in this section. For more details of model architecture and matrix visualizations please click individual models.  
+Performance matrix summary for all models are included in this section. For more details of model architecture and matrix visualizations please browse `Src` folder of this repository.   
 
 | Model                   | Accuracy | F1 Score | Loss   | Precision | Recall  | Training       |
 |-------------------------|----------|----------|--------|-----------|---------|----------------|
