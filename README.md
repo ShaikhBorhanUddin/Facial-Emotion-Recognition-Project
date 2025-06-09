@@ -51,7 +51,7 @@ Unlike widely used datasets such as [CK+](https://www.kaggle.com/datasets/shuvoa
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/fer_sample_mod.png?raw=true)  
 
-The dataset was manually assembled by **web scraping from multiple premium stock image platforms including Adobe Stock, Shutterstock, iStock, and Freepik**. Each image was carefully selected to reflect diverse and realistic emotional expressions in various lighting, backgrounds, and ethnicities, making FER_25 a more robust and scalable choice for real-world emotion recognition tasks.  
+The dataset was manually assembled by **web scraping from multiple premium stock image platforms including Adobe Stock, Getty Images, Shutterstock, iStock, and Freepik**. Each image was carefully selected to reflect diverse and realistic emotional expressions in various lighting, backgrounds, and ethnicities, making FER_25 a more robust and scalable choice for real-world emotion recognition tasks.  
 
 ## 🔬 Model Architecture
 
