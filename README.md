@@ -136,19 +136,19 @@ The confusion matrices show that the ConvNeXtBase model (left) achieves the high
 
 This project incorporates extensive visual analysis to interpret and validate model performance beyond traditional metrics. **Grad-CAM** and **Grad-CAM++** visualizations were employed to highlight the facial regions influencing the model's predictions, aiding in model explainability and transparency. Confusion matrices provide detailed insight into misclassifications across all emotion classes. ROC curves compare the true positive rates against false positives across different thresholds for each model, helping evaluate class-wise performance. These visual tools complement the evaluation metrics and offer deeper understanding into experimented model’s behavior.  
 
-Example of some interpretable correct classification is shown in next 6 images.  
+Example of some **interpretable correct classification** is shown in next 6 images.  
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/high_confidence.png?raw=true)  
 
 The visualizations illustrate how each model effectively localized emotion-relevant facial regions during correct classifications. The **ConvNeXtbase** model accurately concentrated on the furrowed brows and clenched mouth for detecting *anger*, indicating sharp attention to facial tension. The **modified EfficientNetB2** model, predicting *fear*, highlighted widened eyes and raised hands, aligning well with *fear* expressions. For *sadness*, the **modified EfficientNetB3** variant captured downturned lips and furrowed brows, showing nuanced detection of emotional cues. The **EfficientNetB5** model targeting *disgust* focused on the nose and mouth area—consistent with the typical *disgust* expression. The **ResNet101V2** model's *happiness* prediction emphasized cheek areas and smile lines, while the **VGG19** model detecting *surprise* sharply concentrated on the open mouth and raised eyebrows. Collectively, these visualizations validate that despite architectural differences, each model learned to attend to biologically and psychologically relevant regions indicative of the corresponding emotions.  
 
-Next 6 images illustrates examples of attention mismatch from the tested models.
+Next 6 images illustrates examples of **attention mismatch** from the tested models.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/low_confidence.png?raw=true)  
 
 The attention maps in these examples reveal noticeable mismatches between the salient facial regions and model focus, despite correct predictions. In the **ResNet101V2** example for *happiness*, attention is weak and scattered, missing key smile cues around the mouth and eyes. The **VGG19** model predicting *fear* largely emphasizes the forehead and eyes but misses critical lower face tension, yielding a partial representation. **VGG16**’s *sadness* output focuses more on the subject's clothing and background rather than the eyes and mouth—core emotion indicators. The **ResNet50V2** model for *anger* does better, but still diffuses attention beyond essential facial regions like the clenched mouth or narrowed brows. The **EfficientNetB4** prediction for *happiness* oddly splits focus between the subject's mouth and background, reducing interpretability. Lastly, the **EfficientNetB5** prediction of *surprise* performs better but still includes off-face attention, such as cheeks and forehead edges. Collectively, these mismatches suggest that although classification was successful, model interpretability suffers due to inconsistent or suboptimal attention localization.  
 
-The last 6 images illustrate examples of misclassification from the tested models.  
+The last 6 images illustrate examples of **misclassification** from the tested models.  
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/misclassification.png?raw=true)  
 
