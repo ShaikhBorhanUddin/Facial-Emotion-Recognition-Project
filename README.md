@@ -47,7 +47,7 @@ The dataset used in this project is the [FER_25 dataset](https://www.kaggle.com/
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition-Project/blob/main/Image/image_distribution.png?raw=true)  
 
-Unlike widely used datasets such as [CK+](https://www.kaggle.com/datasets/shuvoalok/ck-dataset) or [FER-2013](https://www.kaggle.com/datasets/msambare/fer2013), which include only 38×38 grayscale images, the FER_25 dataset is far more suitable for training deep transfer learning models, especially those leveraging pretrained architectures like EfficientNet and ConvNeXt. The higher resolution and color information enhance the ability of models to capture subtle facial features associated with complex emotional expressions.  
+Unlike widely used datasets such as [CK+](https://www.kaggle.com/datasets/shuvoalok/ck-dataset) or [FER-2013](https://www.kaggle.com/datasets/msambare/fer2013), which include only 38×38 grayscale images, the FER_25 dataset is far more suitable for training deep transfer learning models, especially pretrained architectures like EfficientNet, VGG and ConvNeXt. The higher resolution and color information enhance the ability of models to capture subtle facial features associated with complex emotional expressions.  
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/fer_sample_mod.png?raw=true)  
 
