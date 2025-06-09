@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Framework-TensorFlow-orange?logo=tensorflow" alt="Framework: TensorFlow">
   <img src="https://img.shields.io/badge/Result%20Visualization-GradCAM%20|%20GradCAM++-red?style=flat&logo=visualstudiocode&logoColor=white" alt="Result Visualization: GradCAM, GradCAM++">
   <img src="https://img.shields.io/badge/Emotion%20Classes-7-critical" alt="Emotion Classes">
-  <img src="https://img.shields.io/badge/Data%20Source-Adobe%20Stock%20%7C%20Shutterstock%20%7C%20iStock%20%7C%20Freepik-blueviolet?style=flat" alt="Data Source">
+  <img src="https://img.shields.io/badge/Data%20Source-Adobe%20Stock%20%7C%20Shutterstock%20%7C%20iStock%20%7C%20Freepik%20%7C%20Getty%20Images-blueviolet?style=flat" alt="Data Source">
   <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/Facial-Emotion-Recognition?style=social" alt="Forks">
   <img src="https://img.shields.io/badge/Version%20Control-Git-orange?logo=git&logoColor=white" alt="Version Control: Git">
   <img src="https://img.shields.io/badge/Host-GitHub-black?logo=github&logoColor=white" alt="Host: GitHub">
