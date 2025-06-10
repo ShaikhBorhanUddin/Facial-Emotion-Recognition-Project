@@ -94,7 +94,7 @@ Performance matrix summary for all models are included in this section. For more
 | [ConvNeXtBase](https://colab.research.google.com/drive/1lBYY36mVE5F2jIo4RSMj9kQ1JRHzDr2a?usp=sharing)           | 0.8342   | 0.8535   | 0.7443 | 0.8387    | 0.8284  | Successful     |
 | [VGG16](https://colab.research.google.com/drive/1s78M-6gHwXe3O2jsNCtjmG5hsJ78KjGr?usp=sharing)                   | 0.7444   | 0.3558   | 0.6762 | 0.8164    | 0.6580  | Successful     |
 | [VGG19](https://colab.research.google.com/drive/1AHIS-zlg0FIy0BzYpDv0GUWqkNqdwdii?usp=sharing)                   | 0.8112   | 0.6560   | 0.5309 | 0.8558    | 0.7876  | Successful     |
-| ResNet152V2             | 0.6464   | 0.4481   | 1.7839 | 0.6563    | 0.6456  | Overfitted     |
+| [ResNet152V2](https://colab.research.google.com/drive/1a-M7Q0gTKA1-vi-bfSkDeph5xBiH7WqS?usp=sharing)             | 0.6464   | 0.4481   | 1.7839 | 0.6563    | 0.6456  | Overfitted     |
 | [ResNet101V2](https://colab.research.google.com/drive/12EVYmC6w6fD50sBfiMwnUncZF0XDj0_2?usp=sharing)             | 0.7362   | 0.4074   | 1.2637 | 0.7373    | 0.7301  | Successful     |
 | [ResNet50V2](https://colab.research.google.com/drive/1nUVm3asXfm1pYWG8NVcoeIvBad9bDLCT?usp=sharing)              | 0.6985   | 0.3915   | 1.5528 | 0.7040    | 0.6969  | Successful     |
 
