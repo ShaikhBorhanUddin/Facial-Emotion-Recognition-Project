@@ -90,7 +90,7 @@ Performance matrix summary for all models are included in this section. For more
 | [EfficientNetB3](https://colab.research.google.com/drive/1C-gl6DQVe1x7VawELB-L7zkEF6XmIv9k?usp=sharing)          | 0.7913   | 0.7209   | 0.6796 | 0.8034    | 0.7900  | Successful     |
 | [EfficientNetB2](https://colab.research.google.com/drive/1xLMx-wkydidC_Ko9VBZ4PH3vzho29-SN?usp=sharing)          | 0.8324   | 0.7100   | 0.6005 | 0.8434    | 0.8256  | Successful     |
 | EfficientNetB3 Modified | 0.8342   | 0.8535   | 0.7443 | 0.8387    | 0.8284  | Successful     |
-| EfficientNetB2 Modified | 0.8083   | 0.6756   | 0.6470 | 0.8129    | 0.7978  | Successful     |
+| [EfficientNetB2 Modified](https://colab.research.google.com/drive/1ys4Nl97FWRUAN4Q8JYF4wYzBaNQS_ImT?usp=sharing) | 0.8083   | 0.6756   | 0.6470 | 0.8129    | 0.7978  | Successful     |
 | [ConvNeXtBase](https://colab.research.google.com/drive/1lBYY36mVE5F2jIo4RSMj9kQ1JRHzDr2a?usp=sharing)           | 0.8342   | 0.8535   | 0.7443 | 0.8387    | 0.8284  | Successful     |
 | [VGG16](https://colab.research.google.com/drive/1s78M-6gHwXe3O2jsNCtjmG5hsJ78KjGr?usp=sharing)                   | 0.7444   | 0.3558   | 0.6762 | 0.8164    | 0.6580  | Successful     |
 | [VGG19](https://colab.research.google.com/drive/1AHIS-zlg0FIy0BzYpDv0GUWqkNqdwdii?usp=sharing)                   | 0.8112   | 0.6560   | 0.5309 | 0.8558    | 0.7876  | Successful     |
