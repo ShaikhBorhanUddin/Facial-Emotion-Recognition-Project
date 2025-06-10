@@ -29,15 +29,14 @@ Additionally, the research investigates the influence of data quality and resolu
 ```bash
 Facial-Emotion-Recognition/
 │
-├── assets/                    # 📊 Saved model weights, plots, and outputs
-├── data/                      # 📁 Raw and preprocessed data
+├── Image/                     # 📊 Title, ROC, CM and other outputs
 │
-├── src/
-│   ├── model_training.ipynb   # 🏋️ Training notebook
-│   ├── evaluation.ipynb       # 📈 Evaluation metrics
-│   └── emotion_predictor.py   # 🤖 Inference script
+├── Src/                       # 🏋️ Model training, results and visualization .ipynb files
+│   
+├── Licence.md  
 │
 ├── requirements.txt           # 📃 Python dependencies
+│
 └── README.md
 ```
 
