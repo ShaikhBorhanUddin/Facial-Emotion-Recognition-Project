@@ -92,7 +92,7 @@ Performance matrix summary for all models are included in this section. For more
 | EfficientNetB3 Modified | 0.8342   | 0.8535   | 0.7443 | 0.8387    | 0.8284  | Successful     |
 | EfficientNetB2 Modified | 0.8083   | 0.6756   | 0.6470 | 0.8129    | 0.7978  | Successful     |
 | [ConvNeXtBase](https://colab.research.google.com/drive/1lBYY36mVE5F2jIo4RSMj9kQ1JRHzDr2a?usp=sharing)           | 0.8342   | 0.8535   | 0.7443 | 0.8387    | 0.8284  | Successful     |
-| VGG16                   | 0.7444   | 0.3558   | 0.6762 | 0.8164    | 0.6580  | Successful     |
+| [VGG16](https://colab.research.google.com/drive/1s78M-6gHwXe3O2jsNCtjmG5hsJ78KjGr?usp=sharing)                   | 0.7444   | 0.3558   | 0.6762 | 0.8164    | 0.6580  | Successful     |
 | VGG19                   | 0.8112   | 0.6560   | 0.5309 | 0.8558    | 0.7876  | Successful     |
 | ResNet152V2             | 0.6464   | 0.4481   | 1.7839 | 0.6563    | 0.6456  | Overfitted     |
 | ResNet101V2             | 0.7362   | 0.4074   | 1.2637 | 0.7373    | 0.7301  | Successful     |
