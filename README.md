@@ -20,9 +20,7 @@
 
 ## 🧾 Overview  
 
-The project aims to improve the accuracy and robustness of **facial emotion recognition** systems by utilizing deep learning-based transfer learning methods. It examines how different pre-trained convolutional neural network (CNN) architectures perform in recognizing basic human emotions from facial expressions. The study emphasizes understanding how factors such as model depth, the number of parameters, and architectural complexity affect prediction performance.
-
-Additionally, the research investigates the influence of data quality and resolution on emotion classification, particularly in real-world applications where subtle facial cues are crucial. The project contributes to the development of more expressive and adaptable models that can be applied in areas such as mental health monitoring, human-computer interaction, and behavioral analytics.  
+This study focuses on a deep learning project aimed at classifying human emotions based on facial expressions using transfer learning techniques. Several convolutional neural network (CNN) architectures, including ConvNeXt, EfficientNet, ResNet, and various VGG models, are evaluated and compared. This analysis is conducted on a custom-built dataset of RGB images that are categorized into seven emotion classes: `Anger`, `Disgust`, `Fear`, `Happiness`, `Neutral`, `Sadness`, and `Surprise`. Performance is assessed using metrics such as accuracy, F1-score, and confusion matrices. Additionally, Grad-CAM visualizations are employed to enhance model interpretability. The goal of this research is to identify robust architectures for emotion recognition and to address the challenges associated with classifying nuanced emotional expressions.
 
 ## 🗂️ Project Structure  
 
