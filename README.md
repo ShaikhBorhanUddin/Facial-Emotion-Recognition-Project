@@ -196,7 +196,7 @@ The dataset does not fully align with [Plutchik's wheel of emotions](https://git
 
 Due to hardware limitations in the Google Colab Pro environment—specifically, the 40 GB GPU RAM ceiling—experimentation with larger datasets or more complex deep learning models such as **EfficientNetB7**, **ViT-base**, or **DenseNet201** was not feasible. As shown in the resources usage images below, even models like **ConvNeXtbase**, **EfficientNetB4**, and **ResNet101V2** consumed nearly all available GPU memory (around 37–38.5 GB out of 40 GB), leaving no room for more parameter-heavy architectures or larger batch sizes. The high GPU memory consumption during training caused frequent crashes or throttling when trying to scale beyond this limit. This constraint restricted the exploration of potentially more accurate or generalizable models that require additional compute resources for training and fine-tuning.  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/resource_usage.png?raw=true)  
+![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/resource_usage_mod.png?raw=true)  
 
 ## 🚧 Future Developments  
   
