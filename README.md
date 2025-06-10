@@ -85,7 +85,7 @@ Performance matrix summary for all models are included in this section. For more
 
 | Model                   | Accuracy | F1 Score | Loss   | Precision | Recall  | Training       |
 |-------------------------|----------|----------|--------|-----------|---------|----------------|
-| EfficientNetB5          | 0.8386   | 0.7556   | 0.6814 | 0.8473    | 0.8360  | Successful     |
+| [EfficientNetB5](https://colab.research.google.com/drive/1dLI85NvCjIk47vGyA0MGb4E0iR4n_FsF?usp=sharing)          | 0.8386   | 0.7556   | 0.6814 | 0.8473    | 0.8360  | Successful     |
 | [EfficientNetB4](https://colab.research.google.com/drive/1y9-VMEBLe1RTq5fm76BYgxVDLtGewRcV?usp=sharing)          | 0.8185   | 0.7384   | 0.6205 | 0.8246    | 0.8097  | Successful     |
 | EfficientNetB3          | 0.7913   | 0.7209   | 0.6796 | 0.8034    | 0.7900  | Successful     |
 | EfficientNetB2          | 0.8324   | 0.7100   | 0.6005 | 0.8434    | 0.8256  | Successful     |
