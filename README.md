@@ -25,6 +25,7 @@ This study focuses on a deep learning project aimed at classifying human emotion
 
 ## 🗂️ Project Structure  
 
+The following structure is maintained in this repository. Dataset is not included due to large number of images; however, it can be accessed or downloaded from [Kaggle](https://www.kaggle.com/datasets/shaikhborhanuddin/fer-25).
 ```bash
 Facial-Emotion-Recognition/
 │
