@@ -32,8 +32,10 @@ Facial-Emotion-Recognition/
 │
 ├── Image/                        # 📊 Project visuals (Images for readme file documentation)
 │
-├── models/                       # 🤖 Models are not included in the repository duue to large size 
-│                               
+├── Dataset/                      # 📃 Not included in the repository duue to exceeding maximum size
+│
+├── models/                       # 🤖 Not included in the repository duue to large size 
+│                          
 ├── src/                          # 🧠 Core source code (preprocessing, training, testing & visualization)
 │     │
 │     ├── FER_25_ConvNeXtBase.ipynb
