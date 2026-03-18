@@ -32,20 +32,31 @@ Facial-Emotion-Recognition/
 │
 ├── Image/                         # 📊 Project visuals (title image, ROC, confusion matrix, outputs)
 │
-├── notebooks/                     # 📓 Jupyter notebooks (training, experiments, visualizations)
+├── models/                       # 🤖 Models are not included in the repository duue to large size
+│
+├── src/                          # 🧠 Core source code (preprocessing, training, testing & visualization)
+│     │
+│     ├──
+│     ├──
+│     ├──
+│     ├──
+│     ├──
+│     ├──
+│     ├──
+│     ├──
+│     ├──
+│     ├──
+│     └──
 │
 ├── app.py                         # 🌐 Web app (Gradio deployment files)
 │
-│
-│
-├── models/                        # 🤖 Trained model files (.h5)
-│
-├── src/                           # 🧠 Core source code (preprocessing, training scripts)
-│
 ├── requirements.txt               # 📃 Python dependencies
-├── LICENSE                        # 📜 License information
-├── README.md                      # 📘 Project documentation
-└── .gitignore                     # 🚫 Ignored files
+│
+├── runtime.txt                    # 📃 Python deployment dependencies
+│
+├── Licence.MD                     # 📜 License information
+│
+└── README.md                      # 📘 Project documentation
 ```
 
 ## 🗃️ Dataset  
