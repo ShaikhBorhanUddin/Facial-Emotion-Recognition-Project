@@ -4,9 +4,7 @@ import numpy as np
 from tensorflow.keras.applications.vgg19 import preprocess_input
 from tensorflow.keras.layers import Layer
 
-# -----------------------------
 # Placeholder Cast layer for deserialization
-# -----------------------------
 class Cast(Layer):
     def __init__(self, dtype='float32', **kwargs):
         super().__init__(**kwargs)
@@ -15,26 +13,20 @@ class Cast(Layer):
     def call(self, inputs):
         return tf.cast(inputs, self._dtype)
 
-# -----------------------------
 # Load the model safely
-# -----------------------------
 model = tf.keras.models.load_model(
     "FER_25_VGG19.keras",
     compile=False,
     custom_objects={"Cast": Cast}
 )
 
-# -----------------------------
 # Emotion labels
-# -----------------------------
 emotion_categories = [
     'Anger', 'Disgust', 'Fear',
     'Happiness', 'Neutral', 'Sadness', 'Surprise'
 ]
 
-# -----------------------------
 # Prediction function
-# -----------------------------
 def predict_emotion(img):
     """
     img: NumPy array from Gradio input
@@ -66,9 +58,7 @@ def predict_emotion(img):
     # Return probabilities as dictionary
     return {emotion_categories[i]: float(predictions[i]) for i in range(len(emotion_categories))}
 
-# -----------------------------
 # Gradio Interface
-# -----------------------------
 iface = gr.Interface(
     fn=predict_emotion,
     inputs=gr.Image(type="numpy"),
@@ -77,8 +67,6 @@ iface = gr.Interface(
     description="Upload a face image and the model will predict the emotion."
 )
 
-# -----------------------------
 # Launch
-# -----------------------------
 if __name__ == "__main__":
     iface.launch()
