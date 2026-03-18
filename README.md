@@ -164,8 +164,8 @@ The Facial Emotion Recognition model has been successfully deployed as an intera
 👉 https://huggingface.co/spaces/ShaikhBorhanUddin/Facial_Emotion_Recognition 
 
 <p align="center">
-  <img src="anger.png" width="45%" />
-  <img src="sadness.png" width="45%" />
+  <img src="Images/anger.png" width="45%" />
+  <img src="Images/sadness.png" width="45%" />
 </p>
 
 ## 🌍 Practical Applications  
