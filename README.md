@@ -165,7 +165,7 @@ Overall, while models like ConvNeXtbase and EfficientNetB3 achieved higher perfo
 
 ## 🚀 Deployment 
 
-The Facial Emotion Recognition model has been successfully deployed as an interactive web application using Gradio on Hugging Face Spaces. This allows users to upload an image and instantly get emotion predictions in real time. 
+The Facial Emotion Recognition model has been successfully deployed as an interactive web application using Gradio on Hugging Face Spaces, allowing users to upload an image and instantly receive real-time emotion predictions through a simple and user-friendly interface. 
 
 🔗 Live Demo 
 
@@ -176,7 +176,7 @@ The Facial Emotion Recognition model has been successfully deployed as an intera
   <img src="Image/happiness.png" width="49%" />
 </p> 
 
-To ensure a smooth and responsive user experience, computationally intensive Grad-CAM visualizations were intentionally excluded from the web application, as they significantly increase processing time and can lead to slower performance in a live environment. 
+To ensure a smooth and responsive user experience, computationally intensive Grad-CAM visualizations were intentionally excluded from the web application, as they significantly increase processing time and can lead to slower performance in a live environment. Additionally, although advanced architectures such as ConvNeXtBase and ResNet101V2 demonstrated excellent classification performance, their large model sizes (approximately 1GB and 500MB respectively) made them unsuitable for deployment within the constraints of the Hugging Face free tier. As a result, VGG19 was selected for deployment, offering a strong balance between performance and efficiency, while also outperforming lighter alternatives such as VGG16 and ResNet50. 
 
 ## 🌍 Practical Applications  
 
