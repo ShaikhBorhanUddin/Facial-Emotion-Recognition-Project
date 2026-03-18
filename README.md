@@ -230,7 +230,7 @@ Looking ahead, the project aims to expand its scope by incorporating larger and 
 
 The Swin Transformer (SWIN-base) model will also be tested as a promising alternative to convolutional architectures, potentially offering improved performance in visual understanding tasks due to its hierarchical attention mechanism. To support these enhancements and ensure faster, more scalable experimentation, the project will transition from Google Colab Pro to a dedicated virtual machine (VM) instance environment, providing greater computational flexibility and resource allocation for future training and evaluation. 
 
-Furthermore, advanced model interpretability techniques such as Grad-CAM, Grad-CAM++, and Score-CAM will be incorporated to enhance visualization of model decision-making, providing deeper insights into feature importance and improving transparency in emotion classification. 
+Furthermore, advanced model interpretability techniques such as Grad-CAM, Grad-CAM++, and Score-CAM will be incorporated in deployment to enhance visualization of model decision-making, providing deeper insights into feature importance and improving transparency in emotion classification. 
 
 ## 📄 License  
 
