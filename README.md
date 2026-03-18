@@ -25,19 +25,27 @@ This study focuses on a deep learning project aimed at classifying human emotion
 
 ## 🗂️ Project Structure  
 
-The following structure is maintained in this repository. Dataset is not included due to large number of images; however, it can be accessed or downloaded from [Kaggle](https://www.kaggle.com/datasets/shaikhborhanuddin/fer-25).
+The following structure is maintained in this repository. Dataset is not included due to large number of images; however, it can be accessed or downloaded from [Kaggle](https://www.kaggle.com/datasets/shaikhborhanuddin/fer-25). 
+
 ```bash
 Facial-Emotion-Recognition/
 │
-├── Image/                     # 📊 Title, ROC, CM and other outputs
+├── Image/                         # 📊 Project visuals (title image, ROC, confusion matrix, outputs)
 │
-├── Src/                       # 🏋️ Model training, results and visualization .ipynb files
-│   
-├── Licence.md  
+├── notebooks/                     # 📓 Jupyter notebooks (training, experiments, visualizations)
 │
-├── requirements.txt           # 📃 Python dependencies
+├── app.py                         # 🌐 Web app (Gradio deployment files)
 │
-└── README.md
+│
+│
+├── models/                        # 🤖 Trained model files (.h5)
+│
+├── src/                           # 🧠 Core source code (preprocessing, training scripts)
+│
+├── requirements.txt               # 📃 Python dependencies
+├── LICENSE                        # 📜 License information
+├── README.md                      # 📘 Project documentation
+└── .gitignore                     # 🚫 Ignored files
 ```
 
 ## 🗃️ Dataset  
