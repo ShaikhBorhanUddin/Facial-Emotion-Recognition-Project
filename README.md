@@ -166,7 +166,9 @@ The Facial Emotion Recognition model has been successfully deployed as an intera
 <p align="center">
   <img src="Image/fear.png" width="49%" />
   <img src="Image/happiness.png" width="49%" />
-</p>
+</p> 
+
+To ensure a smooth and responsive user experience, computationally intensive Grad-CAM visualizations were intentionally excluded from the web application, as they significantly increase processing time and can lead to slower performance in a live environment. 
 
 ## 🌍 Practical Applications  
 
