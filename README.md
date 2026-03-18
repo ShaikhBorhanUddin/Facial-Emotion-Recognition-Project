@@ -153,7 +153,13 @@ The last 6 images illustrate examples of **misclassification** from the tested m
 
 These examples highlight key misclassifications despite attention heatmaps showing reasonable localization. In the first case, **ConvNeXtbase** mislabels a clear *happiness* expression as *disgust*, with attention spread across non-discriminative facial areas like the hat and lower face. The second example shows **EfficientNetB4** predicting *sadness* on a man clearly smiling—again a *happiness* cue misread, possibly due to shadows or wrinkles skewing perception. Similarly, **VGG16** mistakes a squinting but smiling face for *sadness*, likely misinterpreting the furrowed brows and harsh lighting. In the fourth case, **EfficientNetB5** classifies a serious or possibly concerned face as *neutral*, despite downturned lips and furrowed brow suggesting *sadness*. **ResNet101V2** incorrectly tags a pout—indicative of *sadness* or disapproval—as *anger*, perhaps overfitting on facial tension. Lastly, **VGG19** mislabels a *surprised/happy* reaction (wide eyes, open mouth, hands on head) as *fear*, showing how overlapping visual cues can confuse classifiers.  
 
-Overall, while models like ConvNeXtbase and EfficientNetB3 achieved higher performance metrics overall, the VGG models (VGG16 and VGG19) consistently produced more focused and interpretable attention heatmaps. However, a common limitation across all models was their inability to accurately classify emotions in test images sourced from old movie screenshots—suggesting a domain gap due to differences in image quality, lighting, and expression style. This emphasizes the need for better domain adaptation and more diverse training data to improve generalization in real-world or vintage contexts.  
+Overall, while models like ConvNeXtbase and EfficientNetB3 achieved higher performance metrics overall, the VGG models (VGG16 and VGG19) consistently produced more focused and interpretable attention heatmaps. However, a common limitation across all models was their inability to accurately classify emotions in test images sourced from old movie screenshots—suggesting a domain gap due to differences in image quality, lighting, and expression style. This emphasizes the need for better domain adaptation and more diverse training data to improve generalization in real-world or vintage contexts. 
+
+## 🚀 Deployment 
+
+The Facial Emotion Recognition model has been successfully deployed as an interactive web application using Gradio on Hugging Face Spaces. This allows users to upload an image and instantly get emotion predictions in real time. 
+
+🔗 Live Demo 👉 https://huggingface.co/spaces/ShaikhBorhanUddin/Facial_Emotion_Recognition
 
 ## 🌍 Practical Applications  
 
