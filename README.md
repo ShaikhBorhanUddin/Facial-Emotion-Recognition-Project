@@ -23,8 +23,6 @@
 
 This project focuses on classifying human emotions from facial expressions using deep learning and transfer learning techniques. Multiple convolutional neural network (CNN) architectures (including ConvNeXt, EfficientNet, ResNet, and VGG) are systematically evaluated and compared to identify the most effective model for this task. The models are trained and tested on a custom-built RGB image dataset comprising seven emotion classes: `Anger`, `Disgust`, `Fear`, `Happiness`, `Neutral`, `Sadness`, and `Surprise`. Performance is assessed using key metrics such as accuracy, F1-score, and confusion matrices, while Grad-CAM visualizations are utilized to enhance interpretability by highlighting the regions influencing model predictions. The project aims to address the challenges of recognizing subtle and complex emotional expressions while identifying robust and efficient architectures. Additionally, a Gradio-based [web app](https://huggingface.co/spaces/ShaikhBorhanUddin/Facial_Emotion_Recognition) has been developed and deployed, enabling users to interact with the model and obtain real-time emotion predictions. 
 
-This study focuses on a deep learning project aimed at classifying human emotions based on facial expressions using transfer learning models. Several convolutional neural network (CNN) architectures, including **ConvNeXt**, **EfficientNet**, **ResNet** and **VGG** models, are evaluated and compared. This analysis is conducted on a custom-built dataset of RGB images that are categorized into seven emotion classes: `Anger`, `Disgust`, `Fear`, `Happiness`, `Neutral`, `Sadness`, and `Surprise`. Performance is assessed using metrics such as accuracy, F1-score, and confusion matrices. Additionally, Grad-CAM visualizations are employed to enhance model interpretability. The goal of this research is to identify robust architectures for emotion recognition and to address the challenges associated with classifying nuanced emotional expressions. A gradio based web application was also developed which can be accessed through the [Link](https://huggingface.co/spaces/ShaikhBorhanUddin/Facial_Emotion_Recognition).
-
 ## 🗂️ Project Structure  
 
 The following structure is maintained in this repository. Dataset is not included due to large number of images; however, it can be accessed or downloaded from [Kaggle](https://www.kaggle.com/datasets/shaikhborhanuddin/fer-25). 
@@ -32,10 +30,10 @@ The following structure is maintained in this repository. Dataset is not include
 ```bash
 Facial-Emotion-Recognition/
 │
-├── Image/                         # 📊 Project visuals (title image, ROC, confusion matrix, outputs)
+├── Image/                        # 📊 Project visuals (title image, ROC, confusion matrix, outputs)
 │
-├── models/                       # 🤖 Models are not included in the repository duue to large size
-│
+├── models/                       # 🤖 Models are not included in the repository duue to large size, 
+│                                 # but can be downloaded from [google drive](https://drive.google.com/drive/folders/1s-hNwnCC2vr2-UhdkD4A0ITxSmEdj3MA?usp=sharing)
 ├── src/                          # 🧠 Core source code (preprocessing, training, testing & visualization)
 │     │
 │     ├── FER_25_ConvNeXtBase.ipynb
