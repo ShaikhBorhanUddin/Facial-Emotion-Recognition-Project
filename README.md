@@ -36,17 +36,17 @@ Facial-Emotion-Recognition/
 │
 ├── src/                          # 🧠 Core source code (preprocessing, training, testing & visualization)
 │     │
-│     ├──
-│     ├──
-│     ├──
-│     ├──
-│     ├──
-│     ├──
-│     ├──
-│     ├──
-│     ├──
-│     ├──
-│     └──
+│     ├── FER_25_ConvNeXtBase.ipynb
+│     ├── FER_25_EfficientNetB2.ipynb
+│     ├── FER_25_EfficientNetB2_Modified.ipynb
+│     ├── FER_25_EfficientNetB3.ipynb
+│     ├── FER_25_EfficientNetB3_Modified.ipynb
+│     ├── FER_25_EfficientNetB4.ipynb
+│     ├── FER_25_ResNet101V2.ipynb
+│     ├── FER_25_ResNet152V2.ipynb
+│     ├── FER_25_ResNet50V2.ipynb
+│     ├── FER_25_VGG19_Final.ipynb
+│     └── VGG_16_Final.ipynb
 │
 ├── app.py                         # 🌐 Web app (Gradio deployment files)
 │
