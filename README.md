@@ -167,7 +167,7 @@ Overall, while models like ConvNeXtbase and EfficientNetB3 achieved higher perfo
 
 The Facial Emotion Recognition model has been successfully deployed as an interactive web application using Gradio on Hugging Face Spaces, allowing users to upload an image and instantly receive real-time emotion predictions through a simple and user-friendly interface. 
 
-🔗 Live Demo 
+🔗 Live App 
 
 👉 https://huggingface.co/spaces/ShaikhBorhanUddin/Facial_Emotion_Recognition 
 
