@@ -30,9 +30,9 @@ The following structure is maintained in this repository. Dataset is not include
 ```bash
 Facial-Emotion-Recognition/
 │
-├── Image/                        # 📊 Project visuals (title image, ROC, confusion matrix, outputs)
+├── Image/                        # 📊 Project visuals (Images for readme file documentation)
 │
-├── models/                       # 🤖 Models are not included in the repository duue to large size, 
+├── models/                       # 🤖 Models are not included in the repository duue to large size 
 │                               
 ├── src/                          # 🧠 Core source code (preprocessing, training, testing & visualization)
 │     │
