@@ -25,7 +25,7 @@ This project focuses on classifying human emotions from facial expressions using
 
 ## 🗂️ Project Structure  
 
-The following structure is maintained in this repository. Dataset is not included due to large number of images; however, it can be accessed or downloaded from [Kaggle](https://www.kaggle.com/datasets/shaikhborhanuddin/fer-25). 
+The following structure is maintained in this repository. Dataset is not included due to large number of images; however, it can be accessed or downloaded from [Kaggle](https://www.kaggle.com/datasets/shaikhborhanuddin/fer-25). Saved deep learning models are also not included in the repository, but can be accessed or downloaded from the following [google drive](https://drive.google.com/drive/folders/1fawjtIIxCBRv8H-JiBYYg88DraSdq3Sb?usp=sharing).
 
 ```bash
 Facial-Emotion-Recognition/
@@ -33,7 +33,7 @@ Facial-Emotion-Recognition/
 ├── Image/                        # 📊 Project visuals (title image, ROC, confusion matrix, outputs)
 │
 ├── models/                       # 🤖 Models are not included in the repository duue to large size, 
-│                                 # but can be downloaded from [google drive](https://drive.google.com/drive/folders/1s-hNwnCC2vr2-UhdkD4A0ITxSmEdj3MA?usp=sharing)
+│                               
 ├── src/                          # 🧠 Core source code (preprocessing, training, testing & visualization)
 │     │
 │     ├── FER_25_ConvNeXtBase.ipynb
