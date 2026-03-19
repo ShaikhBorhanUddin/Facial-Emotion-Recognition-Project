@@ -68,11 +68,11 @@ Facial-Emotion-Recognition/
 
 The dataset used in this project is the [FER_25 dataset](https://www.kaggle.com/datasets/shaikhborhanuddin/fer-25), which consists of **7,200 high-resolution (224×224) RGB images** distributed evenly across seven emotion categories: Anger, Disgust, Fear, Happiness, Neutral, Sadness, and Surprise. As illustrated in the image distribution chart, each category contains approximately 925–945 training images and 96–125 test images, maintaining a balanced class representation.  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition-Project/blob/main/Image/image_distribution.png?raw=true)  
+![Dashboard](Image/image_distribution.png)  
 
 Unlike widely used datasets such as [CK+](https://www.kaggle.com/datasets/shuvoalok/ck-dataset) or [FER-2013](https://www.kaggle.com/datasets/msambare/fer2013), which include only 38×38 grayscale images, the FER_25 dataset is far more suitable for training deep transfer learning models, especially pretrained architectures like EfficientNet, VGG and ConvNeXt. The higher resolution and color information enhance the ability of models to capture subtle facial features associated with complex emotional expressions.  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/fer_sample_mod.png?raw=true)  
+![Dashboard](Image/fer_sample_mod.png)  
 
 The dataset was manually assembled by **web scraping from multiple stock image platforms including Adobe Stock, Getty Images, Shutterstock, iStock, and Freepik**. Each image was carefully selected to reflect diverse and realistic emotional expressions in various lighting, backgrounds, and ethnicities, making FER_25 a more robust and scalable choice for real-world emotion recognition tasks.  
 
@@ -127,15 +127,15 @@ The ConvNeXtBase and EfficientNetB3 Modified models emerged as top performers, b
 
 ROC curve analysis of all tested models are included in this section. ResNet152V2 was excluded due to overfitting in training phase. Also, customized version of EfficientNetB2 and B3 are not included in the analysis.
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/roc_efficientnet.png?raw=true)  
+![Dashboard](Image/roc_efficientnet.png)  
 
 In the four image above, the ROC curves for the EfficientNet models B2, B3, B4, and B5 are shown. All four models demonstrate excellent class discrimination, with AUC scores mostly ranging from 0.97 to 1.00 across all seven emotion classes (Anger, Disgust, Fear, Happiness, Neutral, Sadness, and Surprise). Notably, EfficientNetB5 and B4 show near-perfect AUCs of 1.00 for "Happiness" and "Neutral," indicating extremely strong classification performance for those classes. There is minimal deviation among classes, and all models exhibit steep rises near the Y-axis, reflecting high true positive rates and low false positives—hallmarks of effective multi-class classification models.  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/roc_vgg.png?raw=true)  
+![Dashboard](Image/roc_vgg.png)  
 
 For VGG class, the ROC curves for the VGG16 (left image above) and VGG19 (right image) models are displayed. Both models still achieve reasonably high AUCs (mostly in the 0.93–0.99 range), though slightly lower compared to EfficientNet models. A noticeable decline in performance is seen for "Anger" (VGG19: 0.95) and "Sadness" (VGG19: 0.93), suggesting these emotions were harder to classify accurately. Additionally, the ROC curves exhibit more fluctuation, and the curves are less smooth, which aligns with the models' noted overfitting during training. This performance inconsistency suggests that while VGG models can still capture emotional distinctions, their generalization ability is weaker.
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/roc_resnet.png?raw=true)  
+![Dashboard](Image/roc_resnet.png)  
 
 In the last three image, ConvNeXtBase, ResNet50V2, and ResNet101V2 are analyzed. These models deliver robust classification results, comparable to EfficientNetB2–B5, with AUCs consistently between 0.95 and 1.00. ConvNeXtBase (left image) stands out with a perfect AUC of 1.00 for both "Happiness" and "Neutral," while maintaining strong performance across the other classes. The ROC curves of ResNet101V2 (right image) and ResNet50V2 (middle image) are closely packed with high slopes, indicating minimal class confusion and strong predictive power. Unlike VGG models, these architectures exhibit better generalization, as supported by both their AUC scores and the smoothness and steepness of the ROC curves.
 
@@ -143,15 +143,15 @@ In the last three image, ConvNeXtBase, ResNet50V2, and ResNet101V2 are analyzed.
 
 Confusion Matrix of all models discussed in ROC tab are discussed in this section.  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/cm_efficient.png?raw=true)  
+![Dashboard](Image/cm_efficient.png)  
 
 The images displayed above show confusion matrices for EfficientNet B2, B3, B4, and B5 models (left to right). Across all models, Fear, Happiness, and Neutral consistently show strong classification performance, with high true positive counts—Fear especially stands out with values ranging from 99 to 104. However, Surprise and Sadness frequently get misclassified, particularly into Fear and Neutral, which suggests that the visual features of these emotions may overlap and pose challenges even for deeper networks. A trend of performance improvement is visible as we move from B2 to B5: the number of true positives increases slightly (e.g., Anger improves from 71 to 79, Disgust from 75 to 80), and off-diagonal confusion for classes like Sadness and Surprise becomes more controlled. This indicates that deeper EfficientNet variants (B4 and B5) are better at capturing fine-grained emotional differences.  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/cm_vgg.png?raw=true)  
+![Dashboard](Image/cm_vgg.png)  
 
 The second images contain confusion matrices for VGG16 (left) and VGG19 (right). The differences in performance are stark—VGG19 outperforms VGG16, particularly in classifying Fear, where true positives jump from 72 to 105. VGG16 struggles notably with Sadness and Surprise, misclassifying Sadness as Neutral (25 times) and Surprise as Fear (8 times). These high misclassification rates point to its limited depth compared to VGG19. VGG19 demonstrates improved balance, especially for difficult classes like Sadness and Disgust, though confusion with overlapping expressions such as Fear–Surprise and Neutral–Sadness still exists. Overall, while both VGG models lag behind EfficientNet B4/B5 in overall robustness, VGG19 shows significant gains over VGG16, benefiting from its deeper convolutional layers and enhanced feature extraction.  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/cm_resnet_mod.png?raw=true)  
+![Dashboard](Image/cm_resnet_mod.png)  
 
 The confusion matrices show that the ConvNeXtBase model (left) achieves the highest accuracy, with strong predictions across most classes—e.g., 103 correct for Fear, 93 for Happiness, and 86 for Neutral, with minimal confusion (only 8 Neutral misclassified as Sadness). In contrast, the ResNet50V2 model (middle) struggles with overlapping emotions: only 25 Neutral samples are correctly predicted, while 31 and 27 are wrongly classified as Disgust and Sadness, respectively; Surprise also suffers, with only 75 correct and 16 misclassified as Fear. The ResNet101V2 model (right) improves on this with 46 correct Neutral predictions and stronger results for Fear (111 correct), but still misclassifies 36 Neutral as Sadness and 27 Surprise as Fear. Overall, ConvNeXtBase clearly outperforms both ResNet models in both precision and consistency across emotion categories.
 
@@ -161,19 +161,19 @@ This project incorporates extensive visual analysis to interpret and validate mo
 
 Example of some **interpretable correct classification** is shown in next 6 images.  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/high_confidence.png?raw=true)  
+![Dashboard](Image/high_confidence.png)  
 
 The visualizations illustrate how each model effectively localized emotion-relevant facial regions during correct classifications. The **ConvNeXtbase** model accurately concentrated on the furrowed brows and clenched mouth for detecting *anger*, indicating sharp attention to facial tension. The **modified EfficientNetB2** model, predicting *fear*, highlighted widened eyes and raised hands, aligning well with *fear* expressions. For *sadness*, the **modified EfficientNetB3** variant captured downturned lips and furrowed brows, showing nuanced detection of emotional cues. The **EfficientNetB5** model targeting *disgust* focused on the nose and mouth area—consistent with the typical *disgust* expression. The **ResNet101V2** model's *happiness* prediction emphasized cheek areas and smile lines, while the **VGG19** model detecting *surprise* sharply concentrated on the open mouth and raised eyebrows. Collectively, these visualizations validate that despite architectural differences, each model learned to attend to biologically and psychologically relevant regions indicative of the corresponding emotions.  
 
 Next 6 images illustrates examples of **attention mismatch** from the tested models.
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/low_confidence.png?raw=true)  
+![Dashboard](Image/low_confidence.png)  
 
 The attention maps in these examples reveal noticeable mismatches between the salient facial regions and model focus, despite correct predictions. In the **ResNet101V2** example for *happiness*, attention is weak and scattered, missing key smile cues around the mouth and eyes. The **VGG19** model predicting *fear* largely emphasizes the nose and right eye but misses critical lower face tension, yielding a partial representation. **VGG16**’s *sadness* output focuses more on the subject's clothing and background rather than the eyes and mouth—core emotion indicators. The **ResNet50V2** model for *anger* does better, but still diffuses attention beyond essential facial regions like the clenched mouth or narrowed brows. The **EfficientNetB4** prediction for *happiness* oddly splits focus between the subject's mouth and background, reducing interpretability. Lastly, the **EfficientNetB5** prediction of *surprise* performs better but still fails to highlight key features like wide eyes and frowning eyebrows. Collectively, these mismatches suggest that although classification was successful, model interpretability suffers due to inconsistent or suboptimal attention localization.  
 
 The last 6 images illustrate examples of **misclassification** from the tested models.  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/misclassification.png?raw=true)  
+![Dashboard](Image/misclassification.png)  
 
 These examples highlight key misclassifications despite attention heatmaps showing reasonable localization. In the first case, **ConvNeXtbase** mislabels a clear *happiness* expression as *disgust*, with attention spread across non-discriminative facial areas like the hat and lower face. The second example shows **EfficientNetB4** predicting *sadness* on a man clearly smiling—again a *happiness* cue misread, possibly due to shadows or wrinkles skewing perception. Similarly, **VGG16** mistakes a squinting but smiling face for *sadness*, likely misinterpreting the furrowed brows and harsh lighting. In the fourth case, **EfficientNetB5** classifies a serious or possibly concerned face as *neutral*, despite downturned lips and furrowed brow suggesting *sadness*. **ResNet101V2** incorrectly tags a pout—indicative of *sadness* or disapproval—as *anger*, perhaps overfitting on facial tension. Lastly, **VGG19** mislabels a *surprised/happy* reaction (wide eyes, open mouth, hands on head) as *fear*, showing how overlapping visual cues can confuse classifiers.  
 
@@ -223,22 +223,22 @@ To run the project locally, Python 3.8 or higher should be installed, along with
 
 Emotion is influenced by more than just facial expressions. Sound, movement, body language, the environment, objects, and psychological factors all significantly contribute to how we interpret emotions.   
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/body_language.png?raw=true)
+![Dashboard](Image/body_language.png)
 **Figure**: Example of hand gesture, surrounding environment or body language not considered in the dataset  
 
 For example, If we focus only on the facial expression in the image above (woman with salad bowl) ignoring the contextual cues like the salad bowl and fork, the emotion displayed can easily be misinterpreted as pain or frustration rather than disgust for salad. However, the deep learning models experimented in this study focuses solely on front-facing facial features within a controlled setting, which may limit the overall understanding of emotional expressions.
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/sideway_view.png?raw=true)
+![Dashboard](Image/sideway_view.png)
 **Figure**: Images showing a complete side view were also not included in the model training  
 
 The dataset does not fully align with [Plutchik's wheel of emotions](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/wheel%20of%20emoion.png), which is a widely accepted model encompassing eight primary emotions—joy, trust, fear, surprise, sadness, disgust, anger, and anticipation—along with their intensities and complex combinations (e.g., love as a blend of joy and trust, or submission as a mix of trust and fear). While the FER_25 dataset covers basic, visually distinguishable categories like anger, sadness, happiness, and fear, it lacks representation for more nuanced or compound emotional states such as **sarcasm**, **enthusiasm**, **embarrassment**, or **contempt**.  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/blended_emotions_mod.png?raw=true)
+![Dashboard](Image/blended_emotions_mod.png)
 **Figure**: Example of blended or ambiguous emotions  
 
 Due to hardware limitations in the Google Colab Pro environment—specifically, the 40 GB GPU RAM ceiling—experimentation with larger datasets or more complex deep learning models such as **EfficientNetB7**, **ViT-base**, or **DenseNet201** was not feasible. As shown in the resources usage images below, even models like **ConvNeXtbase**, **EfficientNetB4**, and **ResNet101V2** consumed nearly all available GPU memory (around 37–38.5 GB out of 40 GB), leaving no room for more parameter-heavy architectures or larger batch sizes. The high GPU memory consumption during training caused frequent crashes or throttling when trying to scale beyond this limit. This constraint restricted the exploration of potentially more accurate or generalizable models that require additional compute resources for training and fine-tuning.  
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition/blob/main/Image/resource_usage_mod.png?raw=true)  
+![Dashboard](Image/resource_usage_mod.png)  
 
 ## 🚧 Future Developments  
   
