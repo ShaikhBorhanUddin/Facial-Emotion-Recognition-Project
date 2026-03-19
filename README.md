@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/✅%20Project-Deployed-brightgreen" alt="Project Status">
 </p> 
 
-![Dashboard](Image/title.png?raw=true) 
+![Dashboard](Image/title.png) 
 
 ## 🧾 Overview  
 
