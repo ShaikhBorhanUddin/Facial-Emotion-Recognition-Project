@@ -1,23 +1,26 @@
 #  🎭 Facial Emotion Recognition  
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Made%20With-Colab-blue?logo=googlecolab&logoColor=white&label=Made%20With" alt="Made with Colab">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
+  <img src="https://img.shields.io/badge/📌%20Made%20With-Colab-blue?logo=googlecolab&logoColor=white" alt="Made with Colab">
+  <img src="https://img.shields.io/badge/📄%20License-MIT-green.svg" alt="License: MIT">
   <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/Facial-Emotion-Recognition" alt="Repo Size">
   <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/Facial-Emotion-Recognition" alt="Last Commit">
-  <img src="https://img.shields.io/github/issues/ShaikhBorhanUddin/Facial-Emotion-Recognition" alt="Issues">
-  <img src="https://img.shields.io/badge/Framework-TensorFlow-orange?logo=tensorflow" alt="Framework: TensorFlow">
-  <img src="https://img.shields.io/badge/Result%20Visualization-GradCAM%20|%20GradCAM++-red?style=flat&logo=visualstudiocode&logoColor=white" alt="Result Visualization: GradCAM, GradCAM++">
-  <img src="https://img.shields.io/badge/Emotion%20Classes-7-critical" alt="Emotion Classes">
-  <img src="https://img.shields.io/badge/Data%20Source-Adobe%20Stock%20%7C%20Shutterstock%20%7C%20iStock%20%7C%20Freepik%20%7C%20Getty%20Images-blueviolet?style=flat" alt="Data Source">
-  <img src="https://img.shields.io/badge/Runtime-GPU%20(A100 | Trillium)-blue?logo=nvidia" alt="Runtime: GPU (A100 | Trillium)">
+  <img src="https://img.shields.io/github/issues/ShaikhBorhanUddin/Facial-Emotion-Recognition" alt="Issues">  
+  <img src="https://img.shields.io/badge/🧠%20Framework-TensorFlow-orange?logo=tensorflow" alt="Framework: TensorFlow">
+  <img src="https://img.shields.io/badge/📊%20Data%20Visualization-Matplotlib%20|%20Seaborn-blue" alt="Data Visualization">
+  <img src="https://img.shields.io/badge/🔍%20Explainability-GradCAM%20|%20GradCAM++-red" alt="Explainability">  
+  <img src="https://img.shields.io/badge/🚀%20Deployment-Gradio%20|%20HuggingFace-yellow" alt="Deployment">
+  <img src="https://img.shields.io/badge/🌐%20Host-HuggingFace-black" alt="Host">
+  <img src="https://img.shields.io/badge/✅%20Project-Deployed-brightgreen" alt="Project Status">  
+  <img src="https://img.shields.io/badge/😊%20Emotion%20Classes-7-critical" alt="Emotion Classes">
+  <img src="https://img.shields.io/badge/📂%20Data%20Source-Adobe%20Stock%20%7C%20Shutterstock%20%7C%20iStock%20%7C%20Freepik%20%7C%20Getty%20Images-blueviolet" alt="Data Source">
+  <img src="https://img.shields.io/badge/⚡%20Runtime-GPU%20(A100%20%7C%20Trillium)-blue?logo=nvidia" alt="Runtime">  
   <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/Facial-Emotion-Recognition?style=social" alt="Forks">
-  <img src="https://img.shields.io/badge/Version%20Control-Git-orange?logo=git&logoColor=white" alt="Version Control: Git">
-  <img src="https://img.shields.io/badge/Host-GitHub-black?logo=github&logoColor=white" alt="Host: GitHub">
-  <img src="https://img.shields.io/badge/Project-Completed-brightgreen" alt="Project Status">
-</p>
+  <img src="https://img.shields.io/badge/🔧%20Version%20Control-Git-orange?logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/🐙%20Host-GitHub-black?logo=github&logoColor=white" alt="GitHub">
+</p> 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition-Project/blob/main/Image/fer_title_2.png?raw=true)
+![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition-Project/blob/main/Image/fer_title_2.png?raw=true) 
 
 ## 🧾 Overview  
 
