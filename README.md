@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/✅%20Project-Deployed-brightgreen" alt="Project Status">
 </p> 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition-Project/blob/main/Image/fer_title_2.png?raw=true) 
+![Dashboard](Image/title.png?raw=true) 
 
 ## 🧾 Overview  
 
