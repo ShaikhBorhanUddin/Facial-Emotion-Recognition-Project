@@ -1,12 +1,12 @@
 #  🎭 Facial Emotion Recognition  
 
 <p align="left">
-  <img src="https://img.shields.io/badge/📌%20Made%20With-Colab-blue?logo=googlecolab&logoColor=white" alt="Made with Colab">
+  <img src="https://img.shields.io/badge/%20Made%20With-Colab-blue?logo=googlecolab&logoColor=white" alt="Made with Colab">
   <img src="https://img.shields.io/badge/📄%20License-MIT-green.svg" alt="License: MIT">
   <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/Facial-Emotion-Recognition" alt="Repo Size">
   <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/Facial-Emotion-Recognition" alt="Last Commit">
   <img src="https://img.shields.io/github/issues/ShaikhBorhanUddin/Facial-Emotion-Recognition" alt="Issues">  
-  <img src="https://img.shields.io/badge/🧠%20Framework-TensorFlow-orange?logo=tensorflow" alt="Framework: TensorFlow">
+  <img src="https://img.shields.io/badge/%20Framework-TensorFlow-orange?logo=tensorflow" alt="Framework: TensorFlow">
   <img src="https://img.shields.io/badge/📊%20Data%20Visualization-Matplotlib%20|%20Seaborn-blue" alt="Data Visualization">
   <img src="https://img.shields.io/badge/🔍%20Explainability-GradCAM%20|%20GradCAM++-red" alt="Explainability">  
   <img src="https://img.shields.io/badge/🚀%20Deployment-Gradio%20|%20HuggingFace-yellow" alt="Deployment">
@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/%20Runtime-GPU%20(A100%20%7C%20Trillium)-blue?logo=nvidia" alt="Runtime">  
   <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/Facial-Emotion-Recognition?style=social" alt="Forks">
   <img src="https://img.shields.io/badge/🔧%20Version%20Control-Git-orange?logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/🐙%20Host-GitHub-blue?logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/🌐%20Host-Hugging%20Face-yellow?logo=huggingface&logoColor=blue" alt="Host: Hugging Face">
 </p> 
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Facial-Emotion-Recognition-Project/blob/main/Image/fer_title_2.png?raw=true) 
