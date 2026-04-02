@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/%20Runtime-GPU%20(A100%20%7C%20Trillium)-blue?logo=nvidia" alt="Runtime">  
   <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/Facial-Emotion-Recognition?style=social" alt="Forks">
   <img src="https://img.shields.io/badge/%20Version%20Control-Git-orange?logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/%20Host-Hugging%20Face-yellow?logo=huggingface&logoColor=blue" alt="Host: Hugging Face">
+  <img src="https://img.shields.io/badge/%20Host-Hugging%20Face-yellow?logo=huggingface&logoColor=yellow" alt="Host: Hugging Face">
   <img src="https://img.shields.io/badge/✅%20Project-Deployed-brightgreen" alt="Project Status">
 </p> 
 
