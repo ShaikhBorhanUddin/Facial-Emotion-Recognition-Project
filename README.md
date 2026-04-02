@@ -243,8 +243,8 @@ Due to hardware limitations in the Google Colab Pro environment (specifically, t
 Finally, while the model demonstrates strong performance on high-quality, well-lit images (particularly stock images from sources such as Getty Images or Shutterstock), it shows a noticeable decline in accuracy when applied to real-world inputs. This performance gap can be attributed to a distribution mismatch between the training data and real-world scenarios. 
 
 <p align="center">
-  <img src="Image/error_sample.png" width="49%" />
-  <img src="Image/correct_sample.png" width="49%" />
+  <img src="Image/error_sample.png" width="47%" />
+  <img src="Image/correct_sample.png" width="52%" />
 </p> 
 
 Stock images typically present clear, exaggerated facial expressions under controlled lighting conditions, with minimal background noise and well-centered subjects. In contrast, real-world images often involve inconsistent lighting, multiple faces, and complex or cluttered backgrounds, all of which introduce variability that the model is not sufficiently robust to handle, leading to reduced reliability in emotion classification. 
