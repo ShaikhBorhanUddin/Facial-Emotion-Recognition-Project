@@ -245,7 +245,8 @@ Finally, while the model demonstrates strong performance on high-quality, well-l
 <p align="center">
   <img src="Image/error_sample.png" width="48.4%" />
   <img src="Image/correct_sample.png" width="50.6%" />
-</p> 
+</p>
+**Figure:** Example of non-stock (on left) vs stock (on right) image input 
 
 Stock images typically present clear, exaggerated facial expressions under controlled lighting conditions, with minimal background noise and well-centered subjects. In contrast, real-world images often involve inconsistent lighting, multiple faces, and complex or cluttered backgrounds, all of which introduce variability that the model is not sufficiently robust to handle, leading to reduced reliability in emotion classification. 
 
