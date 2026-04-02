@@ -240,6 +240,8 @@ Due to hardware limitations in the Google Colab Pro environment (specifically, t
 
 ![Dashboard](Image/resource_usage_mod.png)  
 
+Finally, while the model demonstrates strong performance on high-quality, well-lit images (particularly stock images from sources such as Getty Images or Shutterstock), it shows a noticeable decline in accuracy when applied to real-world inputs. This performance gap can be attributed to a distribution mismatch between the training data and real-world scenarios. Stock images typically present clear, exaggerated facial expressions under controlled lighting conditions, with minimal background noise and well-centered subjects. In contrast, real-world images often involve inconsistent lighting, multiple faces, and complex or cluttered backgrounds, all of which introduce variability that the model is not sufficiently robust to handle, leading to reduced reliability in emotion classification.
+
 ## 🚧 Future Developments  
   
 Looking ahead, the project aims to expand its scope by incorporating larger and more diverse datasets (like  [FERV39k](https://github.com/wangyanckxx/FERV39k) or [AffectNet](https://www.kaggle.com/datasets/mstjebashazida/affectnet)) that cover a broader range of emotion categories, aligning more closely with Plutchik’s Wheel of Emotions. This will enable finer-grained emotion recognition and improve generalization across demographics and contexts. In addition to dataset expansion, further architectural experimentation is planned—particularly exploring deeper and more varied dense layer configurations to better capture complex emotional cues.
