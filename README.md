@@ -245,7 +245,7 @@ Finally, while the model demonstrates strong performance on high-quality, well-l
 <p align="center">
   <img src="Image/error_sample.png" width="32%" />
   <img src="Image/correct_sample.png" width="34%" />
-  <img src="Image/correct2.png" width="33%" />
+  <img src="Image/correct2.png" width="27%" />
 </p>
 
 **Figure:** Example of non-stock (on left) vs stock (on right) image input 
